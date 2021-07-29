@@ -58,9 +58,14 @@ body {
     margin: 10px auto;
 }
 
+#paint {
+    background-color: #fff;
+    cursor: crosshair;
+}
+
 .inputContainer2 {
     width: 399px;
-    margin-left: 37%;
+    margin: auto;
 }
 
 .input2 {
@@ -93,4 +98,9 @@ body {
 
 .button:active {
     top: 4px;
+}
+
+.eraseMode {
+    background-color: red;
+    color: white;
 }
